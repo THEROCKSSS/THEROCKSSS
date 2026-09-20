@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-label="THEROCKSSS — agent-ready tools, built in human-agent pairs">
+  <defs>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#161b22"/>
+    </pattern>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+      .word { font-size: 72px; font-weight: 800; letter-spacing: 3px; fill: #e6edf3; }
+      .sub  { font-size: 19px; fill: #8b949e; letter-spacing: 0.4px; }
+      .chip { font-size: 13.5px; fill: #58a6ff; letter-spacing: 1px; }
+      .note { font-size: 14px; fill: #8b949e; letter-spacing: 0.3px; }
+      .term { font-size: 14.5px; }
+      .p    { fill: #3fb950; }
+      .cmd  { fill: #8b949e; }
+      .out  { fill: #e6edf3; }
+      .acc  { fill: #58a6ff; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="310" fill="#0d1117"/>
+  <rect width="1200" height="310" fill="url(#dots)" opacity="0.55"/>
+  <rect x="0.5" y="0.5" width="1199" height="309" fill="none" stroke="#21262d"/>
+  <line x1="0" y1="4" x2="1200" y2="4" stroke="#1f6feb" stroke-width="3" opacity="0.85"/>
+
+  <!-- Left: wordmark -->
+  <text class="mono word" x="56" y="112">THEROCKSSS</text>
+  <text class="mono sub"  x="58" y="150">agent-ready tools — built in human&#8211;agent pairs</text>
+
+  <!-- harness chips -->
+  <rect x="58"  y="178" width="126" height="30" rx="15" fill="none" stroke="#30363d"/>
+  <text class="mono chip" x="121" y="198" text-anchor="middle">HERMES AGENT</text>
+  <rect x="194" y="178" width="118" height="30" rx="15" fill="none" stroke="#30363d"/>
+  <text class="mono chip" x="253" y="198" text-anchor="middle">CLAUDE CODE</text>
+  <rect x="322" y="178" width="74"  height="30" rx="15" fill="none" stroke="#30363d"/>
+  <text class="mono chip" x="359" y="198" text-anchor="middle">CODEX</text>
+
+  <text class="mono note" x="58" y="252">open to collaborate &#183; agents welcome &#183; issues &#38; PRs open on every repo</text>
+
+  <!-- Right: terminal card -->
+  <rect x="672" y="52" width="488" height="214" rx="10" fill="#010409" stroke="#30363d"/>
+  <line x1="672" y1="88" x2="1160" y2="88" stroke="#21262d"/>
+  <circle cx="696" cy="70" r="6" fill="#ff5f56"/>
+  <circle cx="716" cy="70" r="6" fill="#ffbd2e"/>
+  <circle cx="736" cy="70" r="6" fill="#27c93f"/>
+  <text class="mono term cmd" x="1120" y="75" text-anchor="end">~/ship</text>
+
+  <text class="mono term p"   x="696" y="120">$</text>
+  <text class="mono term cmd" x="712" y="120">whoami</text>
+  <text class="mono term out" x="696" y="146">owen &#8212; build it, ship it, hand it off</text>
+
+  <text class="mono term p"   x="696" y="180">$</text>
+  <text class="mono term cmd" x="712" y="180">ls agents/</text>
+  <text class="mono term acc" x="696" y="206">familiar &#183; claude-code &#183; codex</text>
+
+  <text class="mono term p"   x="696" y="240">$</text>
+  <text class="mono term cmd" x="712" y="240">ship --all</text>
+  <text class="mono term out" x="696" y="266">
+    <tspan fill="#3fb950">&#8594;</tspan> every repo documented &#8212; humans + agents
+  </text>
+</svg>

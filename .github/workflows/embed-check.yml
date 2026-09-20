@@ -1,0 +1,20 @@
+name: embed-check
+
+on:
+  schedule:
+    - cron: "41 6 * * 1"   # weekly, Monday 06:41 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  embeds:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Every third-party embed must respond 200
+        run: python3 scripts/selftest.py --embeds --strict
