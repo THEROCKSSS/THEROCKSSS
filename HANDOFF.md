@@ -67,10 +67,9 @@ Stats self-refresh daily. Manual refresh:
 
 ## Open items
 
-- **Profile name/bio/website:** token lacks `user` scope — `gh auth refresh -h github.com -s user`
-  device flow was started (one-time code issued) and is awaiting browser approval.
-  After approval: re-run the PATCH with `.github/profile-patch.json` payload
-  (name "Owen", bio "Agent-ready tools, built in human–agent pairs…", blog = portfolio site).
+- **Profile name/bio/website:** token lacks `user` scope — run
+  `gh auth refresh -h github.com -s user`, approve in browser, then:
+  `gh api -X PATCH /user -f name="Owen" -f bio="Agent-ready tools, built in human–agent pairs. Hermes Agent × Claude Code × Codex — local-first, self-hosted, documented for agents. Open to collaborate." -f blog="https://therocksss.github.io/hermes-skills-portfolio/"`
 - Profile "location" / social fields left unset (no confirmed values).
 - Achievements roadmap: Pull Shark base (2 merged PRs) etc. — earn legitimately via normal PR flow.
 - Consider pruning the 34 stale forks (2020–2023 era) from the profile.
