@@ -22,7 +22,7 @@
 
 I build **agent-ready tools** — software that a person *and* their AI agents can pick up, run, and extend without a six-week onboarding. Local-first where it counts; documented like a new team takes over tomorrow, because that's usually the plan.
 
-The whole shop runs as a **human–agent pairing loop**, and it's all in the open — specs, tickets, implementation, review, with agents in most seats and a human on the merge button.
+The whole shop runs as a **human–agent pairing loop** — and the agents are a crew, not a single bot: **Hermes Agent** runs the fleet while **Claude Code** and **Codex** work beside it as peers, sharing one brain (memory, skills, handoff docs). It's all in the open — specs, tickets, implementation, review — with agents in most seats and a human on the merge button.
 
 ## Featured builds
 
@@ -58,12 +58,32 @@ A **local, cloud-independent dashboard** for Tuya Wi-Fi bulbs: **186 features**,
 
 ## How the work gets made
 
-Every repo here is built in a **human–agent pairing loop** — and ships the scaffolding so any agent (yours included) can pick up where mine left off.
+Every repo here is built in a **human–agent pairing loop** — and it's a crew, not a single bot.
 
-- **Harnesses** — [Hermes Agent](https://hermes-agent.nousresearch.com) runs my fleet; **Claude Code** and **Codex** work beside it as peers. Specs, tickets, and review comments — not vibes.
-- **Coordination** — self-hosted **Forgejo**: feature branches, PRs, review queues. Agents open PRs; a human merges.
-- **Memory** — a self-hosted **Supabase** store keeps durable context consistent across agents and sessions, so nothing gets learned twice.
-- **Handoff by default** — repos ship `AGENTS.md`, project-local agent skills, and a `HANDOFF.md`, so work survives interruptions, outages, and model swaps.
+**The crew**
+
+| Member | Role |
+|---|---|
+| **Hermes Agent** | Runs the fleet — scheduling, monitoring, coordination, long-term memory. |
+| **Claude Code** | Peer agent working in-repo — takes tickets, writes code, keeps the docs honest. |
+| **Codex** | Peer agent — reviews diffs, fixes bugs, hardens CI. |
+| **Owen** | Designs, decides, merges. The human on the merge button. |
+
+**The loop** — how an idea becomes a shipped change:
+
+1. **Issue** — someone (me, an agent, or you) opens one with a real problem statement.
+2. **Spec & tickets** — the work gets written down: what "done" looks like, edge cases, how it gets verified.
+3. **Build** — an agent picks up a ticket on a feature branch. Code, tests, and docs land together.
+4. **Review** — a *different* agent than the one who wrote it reviews the diff: secrets scan, quality gates, honest evidence.
+5. **PR** — opened with a summary and proof it works; CI runs on every push.
+6. **Merge** — human review, then merge. Agents open PRs; they never self-merge.
+
+**The infrastructure**
+
+- Self-hosted **[Forgejo](https://forgejo.org)** coordinates the fleet — feature branches, PRs, review queues.
+- Self-hosted **Supabase** is the shared brain — durable memory that stays consistent across agents and sessions.
+- **Handoff by default** — every repo ships `AGENTS.md`, project-local agent skills, and a `HANDOFF.md`, so any agent can pick up where the last one stopped.
+- **Verification is a rule, not a vibe** — a change isn't done until it's been exercised with real tool output.
 
 ## By the numbers
 
@@ -78,11 +98,20 @@ Every repo here is built in a **human–agent pairing loop** — and ships the s
 
 <sub>The first card is generated daily by this repo's own Action — it can't go down with a third-party service. The rest are live embeds (ghstats.dev, streak-stats, summary-cards).</sub>
 
-## Work with me — and with my agents
+## Get involved — here's the deal
 
-- **Open to collaborate.** Issues and PRs welcome on every repo — a rough PR beats a perfect plan.
-- **Agents welcome.** The projects ship agent instructions on purpose: point yours at any `AGENTS.md`, or one-parse [skills-index.json](https://raw.githubusercontent.com/THEROCKSSS/hermes-skills-portfolio/main/skills-index.json).
-- **Usage is the fuel.** The skills portfolio improves every time someone installs one and reports what broke — that's the loop. Try one against your own agent.
+Bring anything; there's a path for it. No gatekeeping, no "come back with a PR next time".
+
+| You bring | You get back |
+|---|---|
+| **A skill request** — [use the request form](https://github.com/THEROCKSSS/hermes-skills-portfolio/issues/new?template=skill_request.yml) | Approved requests get auto-scaffolded into a starter PR. Build it yourself, or watch the crew build it — either way it ships and you're credited. |
+| **A skill of your own** — [CONTRIBUTING.md](https://github.com/THEROCKSSS/hermes-skills-portfolio/blob/main/CONTRIBUTING.md) | Merged into the catalog with attribution, ranked in [the site](https://therocksss.github.io/hermes-skills-portfolio/), installable by every agent that comes after. |
+| **Usage** — install a skill, actually run it | Usage data (installs, clones, reports) accumulates in the ranking — every install makes the next person's pick safer. |
+| **A bug report** — any repo, [even rough](https://github.com/THEROCKSSS?tab=repositories) | Every fix lands with the report linked. Rough reports beat silence. |
+| **A PR** — any repo | Reviewed by an agent, merged by a human, your name on the commit. A rough PR beats a perfect plan. |
+| **An idea or a plan** — feature request, workflow, whatever | If it fits, it becomes a ticket, gets built, and your name rides along. |
+
+**Any harness.** Bring your own agent — Hermes Agent, Claude Code, Codex, or none at all. The projects are documented for all of them on purpose: point your agent at any `AGENTS.md`, or give it the one-parse [skills-index.json](https://raw.githubusercontent.com/THEROCKSSS/hermes-skills-portfolio/main/skills-index.json) and let it rip. Issues, PRs, and skill requests are open on every repo — I'd rather have your rough draft than your silence.
 
 <div align="center">
 <img src="assets/footer.svg" alt="by Owen — built with Hermes Agent, Claude Code and Codex" width="100%">
