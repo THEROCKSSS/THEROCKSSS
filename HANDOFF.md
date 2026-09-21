@@ -64,14 +64,23 @@ Stats self-refresh daily. Manual refresh:
   topics added to 8 repos that had none.
 - Canonical memory: `user.identity.public_and_local_names` corrected to "Owen"
   (revision 2, supersedes "Monica Amano"; user chose "by Owen" this session).
+- **Profile fields applied** (2026-09-21): name "Owen", bio (see below), blog =
+  portfolio site — verified via `gh api /user`. NOTE: an env `GITHUB_TOKEN`
+  without `user` scope shadows the keyring token in gh; profile PATCH must run
+  with `env -u GITHUB_TOKEN` so gh uses the refreshed keyring token.
+- **v2 sections added + live** (commit `1992f63`, verify run `35548147599` → success):
+  crew table (Hermes Agent / Claude Code / Codex / Owen), six-step workflow loop,
+  contribution-incentive table (skill requests → auto-scaffolded PRs, own skills,
+  usage, bugs, PRs, ideas), any-harness invitation. Verified live on the profile page.
+
+Bio string (current): `Agent-ready tools, built in human–agent pairs. Hermes Agent × Claude Code × Codex — local-first, self-hosted, documented for agents. Open to collaborate.`
 
 ## Open items
 
-- **Profile name/bio/website:** token lacks `user` scope — run
-  `gh auth refresh -h github.com -s user`, approve in browser, then:
-  `gh api -X PATCH /user -f name="Owen" -f bio="Agent-ready tools, built in human–agent pairs. Hermes Agent × Claude Code × Codex — local-first, self-hosted, documented for agents. Open to collaborate." -f blog="https://therocksss.github.io/hermes-skills-portfolio/"`
 - Profile "location" / social fields left unset (no confirmed values).
 - Achievements roadmap: Pull Shark base (2 merged PRs) etc. — earn legitimately via normal PR flow.
 - Consider pruning the 34 stale forks (2020–2023 era) from the profile.
 - Portfolio README skills table still shows the Phase-1 placeholder — verify whether
   the refresh is intentionally pending before running it.
+- Portfolio has 20 open issues (skill requests) — the submission workflow exists
+  (`skill-submission.yml` scaffolds approved requests into PRs); could be worked.
