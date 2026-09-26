@@ -19,3 +19,5 @@ jobs:
           python-version: "3.12"
       - name: Self-test (assets, refs, attribution, stats freshness)
         run: python3 scripts/selftest.py --strict
+      - name: Check recent-repository renderer
+        run: python3 -m unittest discover -s tests -v

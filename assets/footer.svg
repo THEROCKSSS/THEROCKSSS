@@ -1,16 +1,2 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72" role="img" aria-label="by Owen — built with Hermes Agent, Claude Code and Codex">
-  <defs>
-    <style>
-      .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
-      .sig  { font-size: 14px; fill: #8b949e; letter-spacing: 0.6px; }
-      .hi   { fill: #58a6ff; }
-      .ok   { fill: #3fb950; }
-    </style>
-  </defs>
-  <rect width="1200" height="72" fill="#0d1117"/>
-  <rect x="0.5" y="0.5" width="1199" height="71" fill="none" stroke="#21262d"/>
-
-  <line x1="330" y1="36" x2="470" y2="36" stroke="#1f6feb" stroke-width="1.5" opacity="0.6"/>
-  <text class="mono sig" x="600" y="41" text-anchor="middle"><tspan class="ok">&#9679;</tspan> by <tspan class="hi">Owen</tspan> &#8212; built with <tspan class="hi">Hermes Agent</tspan> &#215; <tspan class="hi">Claude Code</tspan> &#215; <tspan class="hi">Codex</tspan> &#183; human on the merge button</text>
-  <line x1="730" y1="36" x2="870" y2="36" stroke="#1f6feb" stroke-width="1.5" opacity="0.6"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="96" viewBox="0 0 1200 96" role="img" aria-label="by Owen — built with Hermes Agent, Claude Code and Codex">
+<defs><pattern id="p" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#303f52"/></pattern></defs><rect width="1200" height="96" fill="#0d1117"/><rect width="1200" height="96" fill="url(#p)"/><rect x="1" y="1" width="1198" height="94" rx="8" fill="none" stroke="#30363d"/><path d="M26 20v56h160M1174 20v56h-160" fill="none" stroke="#1f6feb" stroke-width="2"/><circle cx="600" cy="48" r="27" fill="#142846" stroke="#1f6feb"/><text x="600" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#e6edf3">O</text><text x="210" y="52" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="13" letter-spacing="1" fill="#e6edf3">BY OWEN <tspan fill="#8b949e">/ OPEN WORKSHOP</tspan></text><text x="995" y="52" text-anchor="end" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="13" letter-spacing=".4" fill="#8b949e">HERMES · CLAUDE CODE · CODEX</text></svg>
