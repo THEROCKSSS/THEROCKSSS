@@ -1,12 +1,25 @@
 # HANDOFF — GitHub Profile (THEROCKSSS/THEROCKSSS)
 
+## Current Codex work (2026-09-26)
+
+- Branch `feat/new-repos-visual-refresh` started from `main` at `8087d41c6f3eff6c23da38bdac6545252d5b4711`; implementation commit `1d88ac2` is in [PR #1](https://github.com/THEROCKSSS/THEROCKSSS/pull/1). Its `verify / selftest` check passed.
+- Owen asked for all 11 public repositories created since the profile's 2026-09-20 update to appear, including seven clearly labeled forks, and for the section to refresh automatically.
+- [x] Generate and verify the new repository section (11 entries: four originals, seven forks).
+- [x] Redesign the handmade banner/footer and generated stats card; add Jev feature art.
+- [x] Run generator, strict selftest, embed checks, visual verification, and review.
+- [x] Finish pre-commit security checks and record evidence in the Codex workspace `outputs/verification.md`.
+- [x] Commit, push a branch, open a PR, and record CI outcome. PR #1 is open; CI passed. Do not self-merge.
+
+The daily stats Action now also refreshes the marker-delimited repository section and runs strict selftest plus renderer tests before its bot commit. `python scripts/selftest.py --embeds --strict` passed with 0 failures / 0 warnings; every existing remote image responded successfully. `python -m unittest discover -s tests -v` passed (1 test). All four local SVGs were parsed and rendered in Chromium for visual inspection. The source-generated stats on 2026-09-26 reported 362 contributions in the last 365 days, 42 active days, 16 original public repos, 3 stars received, 57 published skills, and 3 followers; these are generated data, not hand-entered design copy. Standards review flagged missing verification before the bot commit; it was added.
+
+
 **Status:** ✅ DEPLOYED 2026-09-20 · live at https://github.com/THEROCKSSS
 **Owner:** Owen (public attribution: "by Owen"). Built by Familiar (Hermes Agent).
 
 ## What this is
 
 The special `THEROCKSSS/THEROCKSSS` repo whose README renders on
-https://github.com/THEROCKSSS. It presents: the four featured builds, the
+https://github.com/THEROCKSSS. It presents: five featured builds, the
 harness/agent workflow, self-hosted + third-party stats, and collaboration info.
 
 ## Layout
@@ -17,6 +30,7 @@ harness/agent workflow, self-hosted + third-party stats, and collaboration info.
 - `assets/stats.svg` + `assets/stats.json` — **generated** daily by
   `scripts/generate_stats.py` via `.github/workflows/stats.yml` (never hand-edit)
 - `scripts/generate_stats.py` — regenerates stats from public GitHub data (stdlib only)
+- `scripts/generate_repos.py` — refreshes all public repos created since 2026-09-20 and labels forks
 - `scripts/selftest.py` — asset/README checks; `--embeds` checks third-party URLs
 - `.github/workflows/` — `verify.yml` (CI on push) · `stats.yml` (daily 05:23 UTC) · `embed-check.yml` (weekly Mon 06:41 UTC)
 
@@ -24,7 +38,7 @@ harness/agent workflow, self-hosted + third-party stats, and collaboration info.
 
 1. Edit `README.md` / hand-made assets as needed.
 2. `python3 scripts/selftest.py` (add `--embeds` when touching embed URLs).
-3. Commit + push to `main` (profile renders from the default branch only).
+3. Commit on a feature branch and open a reviewable PR; Owen merges to `main` to publish the profile.
 
 Stats self-refresh daily. Manual refresh:
 `gh workflow run stats.yml -R THEROCKSSS/THEROCKSSS`
