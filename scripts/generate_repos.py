@@ -40,18 +40,23 @@ def safe_text(value):
 
 
 def render(repos):
-    recent = [r for r in repos if r.get("created_at", "") > CUTOFF and not r.get("private")]
+    recent = [
+        r for r in repos
+        if r.get("created_at", "") > CUTOFF
+        and not r.get("private")
+        and not r.get("fork")
+    ]
     recent.sort(key=lambda r: r["created_at"], reverse=True)
-    lines = [START, "", "| Repository | Type | What it is |", "|---|---|---|"]
+    lines = [START, "", "| Repository | What it is |", "|---|---|"]
     for repo in recent:
         name = repo["name"]
         url = repo["html_url"]
         if not re.fullmatch(r"[A-Za-z0-9_.-]+", name) or not url.startswith(f"https://github.com/{USER}/"):
             raise ValueError(f"Unexpected repository metadata: {name}")
-        kind = "Fork" if repo.get("fork") else "Original"
         desc = safe_text(repo.get("description") or "No description provided")
-        lines.append(f"| [{safe_text(name)}]({url}) | {kind} | {desc} |")
-    lines += ["", f"*{len(recent)} public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*", "", END]
+        lines.append(f"| [{safe_text(name)}]({url}) | {desc} |")
+    noun = "repository" if len(recent) == 1 else "repositories"
+    lines += ["", f"*{len(recent)} original public {noun} created since 2026-09-20. Metadata from GitHub; refreshed daily.*", "", END]
     return "\n".join(lines)
 
 

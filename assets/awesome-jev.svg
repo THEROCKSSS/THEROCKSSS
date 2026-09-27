@@ -1,2 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Awesome Jev — explore the ecosystem, read the source">
-<defs><pattern id="lines" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#233547" stroke-width=".7"/></pattern><style>.mono{font-family:ui-monospace,Menlo,Consolas,monospace}.sans{font-family:Arial,sans-serif}</style></defs><rect width="1200" height="300" fill="#0d1117"/><rect width="1200" height="300" fill="url(#lines)"/><rect x="1" y="1" width="1198" height="298" rx="8" fill="none" stroke="#30363d"/><path d="M1 1H1199" stroke="#1f6feb" stroke-width="4"/><text x="48" y="55" class="mono" fill="#58a6ff" letter-spacing="3" font-size="13">FEATURED PROJECT / OPEN INDEX</text><text x="48" y="135" class="sans" fill="#e6edf3" font-weight="bold" font-size="65" letter-spacing="-3">AWESOME JEV</text><text x="50" y="179" class="sans" fill="#8b949e" font-size="20">Explore the ecosystem. Read the source.</text><rect x="50" y="211" width="205" height="42" rx="3" fill="#1f6feb"/><text x="153" y="238" text-anchor="middle" class="mono" fill="#e6edf3" font-size="12">OPEN THE CATALOG ↗</text><g transform="translate(913 151)"><circle r="140" fill="#101b2b" stroke="#1f6feb"/><circle r="105" fill="none" stroke="#446d9b" stroke-dasharray="2 7"/><circle r="69" fill="none" stroke="#446d9b"/><circle r="35" fill="#1f6feb"/><text y="12" class="sans" text-anchor="middle" fill="#e6edf3" font-weight="bold" font-size="35">J</text><path d="M-102 -26L-59 -18M65 -38L96 -56M-14 70L-23 102" stroke="#58a6ff" stroke-width="2"/><g class="mono" font-size="11" fill="#e6edf3"><rect x="-195" y="-44" width="91" height="30" fill="#152339" stroke="#446d9b"/><text x="-149" y="-24" text-anchor="middle">MODELS</text><rect x="93" y="-72" width="89" height="30" fill="#152339" stroke="#446d9b"/><text x="137" y="-52" text-anchor="middle">AGENTS</text><rect x="-62" y="99" width="82" height="30" fill="#152339" stroke="#446d9b"/><text x="-21" y="119" text-anchor="middle">TOOLS</text></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Awesome Jev — a source-linked ecosystem map leading to each repository README">
+<defs>
+  <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b121b"/><stop offset=".57" stop-color="#132329"/><stop offset="1" stop-color="#0b121b"/></linearGradient>
+  <radialGradient id="light"><stop stop-color="#c9f571" stop-opacity=".24"/><stop offset="1" stop-color="#c9f571" stop-opacity="0"/></radialGradient>
+  <radialGradient id="core" cx=".32" cy=".28" r=".83"><stop stop-color="#e4ffac"/><stop offset=".64" stop-color="#a9db6b"/><stop offset="1" stop-color="#4f7338"/></radialGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#bfd4be" stroke-opacity=".09"/></pattern>
+  <clipPath id="frame"><rect x="1" y="1" width="1198" height="358" rx="10"/></clipPath>
+  <filter id="glow"><feGaussianBlur stdDeviation="10"/></filter>
+  <style>.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.display{font-family:Arial,Helvetica,sans-serif;font-weight:800}.micro{font-size:10px;letter-spacing:2px}.node{font-size:11px;letter-spacing:1.2px}</style>
+</defs>
+<g clip-path="url(#frame)">
+  <rect width="1200" height="360" fill="url(#paper)"/><rect width="1200" height="360" fill="url(#grid)"/>
+  <circle cx="913" cy="177" r="280" fill="url(#light)"/>
+  <path d="M0 0H1200V360H0Z" fill="none" stroke="#6b8c7c" stroke-opacity=".45" stroke-width="2"/>
+  <path d="M0 0H1200" stroke="#c9f571" stroke-width="4"/>
+  <path d="M40 48h140M40 48v30M1160 312h-140M1160 312v-30" fill="none" stroke="#c9f571" stroke-opacity=".7" stroke-width="1.5"/>
+  <text x="50" y="76" class="mono micro" fill="#c9f571">FEATURED PROJECT / FIELD NOTES 001</text>
+  <text x="48" y="166" class="display" font-size="77" letter-spacing="-5" fill="#edf4e8">AWESOME <tspan fill="#c9f571">JEV</tspan></text>
+  <text x="51" y="207" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#d5dfd5">Follow the signal. Find the work.</text>
+  <text x="51" y="238" class="mono" font-size="12" letter-spacing=".4" fill="#a7bdb6">A daily-updated index · original READMEs · direct source links</text>
+  <path d="M51 259H546" stroke="#8ca899" stroke-opacity=".55"/>
+  <g class="mono micro"><rect x="51" y="281" width="161" height="35" fill="#c9f571"/><text x="69" y="304" fill="#102017">EXPLORE THE INDEX ↗</text><text x="232" y="304" fill="#9db2aa">DISCOVER  /  FOLLOW  /  READ</text></g>
+  <g transform="translate(919 180)">
+    <circle r="164" fill="none" stroke="#a2c5ad" stroke-opacity=".23" stroke-dasharray="2 9"/>
+    <circle r="137" fill="none" stroke="#a2c5ad" stroke-opacity=".52" stroke-width="1.5"/>
+    <circle r="106" fill="none" stroke="#c9f571" stroke-opacity=".77" stroke-dasharray="6 8"/>
+    <circle r="69" fill="none" stroke="#d7efb1" stroke-opacity=".46"/>
+    <path d="M-1 0Q-114 -72 -139 -95M0 0Q98 -77 136 -92M0 0Q107 70 142 114M0 0Q-88 90 -132 111" fill="none" stroke="#c9f571" stroke-opacity=".82" stroke-width="1.5"/>
+    <circle r="52" fill="#c9f571" opacity=".55" filter="url(#glow)"/><circle r="48" fill="url(#core)" stroke="#e9ffb9" stroke-width="1.5"/>
+    <text x="0" y="17" text-anchor="middle" class="display" font-size="52" letter-spacing="-6" fill="#183222">J·</text>
+    <g class="mono node" fill="#e9f5e4"><rect x="-213" y="-121" width="96" height="29" fill="#142920" stroke="#b1d28c"/><text x="-165" y="-102" text-anchor="middle">01 MODELS</text>
+    <rect x="122" y="-119" width="88" height="29" fill="#142920" stroke="#b1d28c"/><text x="166" y="-100" text-anchor="middle">02 TOOLS</text>
+    <rect x="127" y="100" width="90" height="29" fill="#142920" stroke="#b1d28c"/><text x="172" y="119" text-anchor="middle">03 AGENTS</text>
+    <rect x="-213" y="98" width="100" height="29" fill="#142920" stroke="#b1d28c"/><text x="-163" y="117" text-anchor="middle">04 README</text></g>
+    <circle cx="-139" cy="-95" r="4" fill="#c9f571"/><circle cx="136" cy="-92" r="4" fill="#c9f571"/><circle cx="142" cy="114" r="4" fill="#c9f571"/><circle cx="-132" cy="111" r="4" fill="#c9f571"/>
+  </g>
+  <text x="1150" y="333" class="mono micro" text-anchor="end" fill="#92aa9f">SOURCE-LINKED / NO AFFILIATION WITH TYPESAFE</text>
+</g>
+</svg>
