@@ -9,7 +9,7 @@
 - Prior work: PR #1 merged on 2026-09-26; daily stats and repository refresh are live.
 
 ## Current state
-The profile README and generator now list recent original repositories only. A verified merged contribution outside Owen's repos is linked separately. The Awesome Jev feature art has been redrawn as a source-linked ecosystem map. This branch has not been merged or published. Run `git status --short --branch` for the current tip and pending files.
+The profile README and generator on `feat/original-repos-profile` at implementation commit `e12c25b` list recent original repositories only. A verified merged contribution outside Owen's repos is linked separately. The Awesome Jev feature art has been redrawn as a source-linked ecosystem map. [PR #2](https://github.com/THEROCKSSS/THEROCKSSS/pull/2) is open and its `verify / selftest` check passed in run `36305334822`. This branch has not been merged or published.
 
 ## Tasks
 - [x] Filter forked repos in the generator so the daily Action cannot re-add them.
@@ -19,7 +19,7 @@ The profile README and generator now list recent original repositories only. A v
 - [x] Redraw Awesome Jev SVG feature image and inspect its Chromium render.
 - [x] Run generator, unit test, and strict profile selftest.
 - [x] Finish independent Standards and Spec review; the PR #55 wording was corrected.
-- [ ] Commit, push, open a reviewable PR, and record CI status.
+- [x] Commit, push, open PR #2, and record passing CI run `36305334822`.
 - [ ] Owen reviews and merges before public profile changes.
 
 ## What was done this session
@@ -27,6 +27,7 @@ The profile README and generator now list recent original repositories only. A v
 - A scan of 13 THEROCKSSS repository links in the README against GitHub metadata found zero fork references. GraphQL returned zero pinned repositories.
 - GitHub's search API returned one public merged PR outside THEROCKSSS, OpenCoven/coven-landing #55, linked as a contribution.
 - `assets/awesome-jev.svg` was redrawn and visually inspected at 1200×360 in Chromium. `python -m unittest discover -s tests -v`: 1 passed. `python scripts/selftest.py --strict`: 0 failures / 0 warnings.
+- PR #2 was opened and its GitHub Actions selftest passed.
 - The linked `lowlighter/metrics` project is MIT licensed and offers SVG metrics with many plugins. Its documented profile Action setup calls for a personal token; `gh secret list` showed no configured `METRICS_TOKEN`. The existing local stats generator continues using GitHub's built-in Action token, so no new credential is needed.
 
 ## What's not done
