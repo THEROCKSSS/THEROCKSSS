@@ -70,6 +70,7 @@ These are all public repositories created since September 20, 2026. The list bel
 
 | Repository | Type | What it is |
 |---|---|---|
+| [wardogs-presence](https://github.com/THEROCKSSS/wardogs-presence) | Original | Portable War Dogs screen status for Discord webhooks |
 | [metrics](https://github.com/THEROCKSSS/metrics) | Fork | 📊 An infographics generator with 30+ plugins and 300+ options to display stats about your GitHub account and render them as SVG, Markdown, PDF or JSON! |
 | [awesome-jev](https://github.com/THEROCKSSS/awesome-jev) | Original | Merged, deduplicated, daily-updated catalog of Jev / TypeSafe System One projects with a filterable GitHub Pages site |
 | [llm-router](https://github.com/THEROCKSSS/llm-router) | Original | One OpenAI-compatible endpoint for every model you use — cloud APIs, free tiers, wildcard catalogs, and local models. Multi-lane LiteLLM gateway with per-agent keys, spend tracking, restart survival, dashboard, and agent skills. |
@@ -82,7 +83,7 @@ These are all public repositories created since September 20, 2026. The list bel
 | [drawio-skill](https://github.com/THEROCKSSS/drawio-skill) | Fork | Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports. |
 | [framecoded](https://github.com/THEROCKSSS/framecoded) | Fork | No description provided |
 
-*11 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
+*12 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
 
 <!-- RECENT-REPOS:END -->
 
