@@ -62,29 +62,26 @@ A **local, cloud-independent dashboard** for Tuya Wi-Fi bulbs: **186 features**,
 
 **Elsewhere in the workshop:** [discord-stream-overlay](https://github.com/THEROCKSSS/discord-stream-overlay) — OBS overlays from a Vencord plugin · [crate](https://github.com/THEROCKSSS/crate) — community playlists, one PR per song · [battlebit-stats](https://github.com/THEROCKSSS/battlebit-stats) — self-hosted game stats · [sorted-iptv](https://github.com/THEROCKSSS/sorted-iptv) — free-to-air streams, sorted · [self-hosted-project-hub](https://github.com/THEROCKSSS/self-hosted-project-hub) — a cloneable live-data project index
 
-## New repositories
+## Recent original repositories
 
-These are all public repositories created since September 20, 2026. The list below is generated from GitHub metadata each day; forks are labeled.
+These are my original public repositories created since September 20, 2026. GitHub metadata refreshes this list daily; forks are excluded.
 
 <!-- RECENT-REPOS:BEGIN -->
 
-| Repository | Type | What it is |
-|---|---|---|
-| [metrics](https://github.com/THEROCKSSS/metrics) | Fork | 📊 An infographics generator with 30+ plugins and 300+ options to display stats about your GitHub account and render them as SVG, Markdown, PDF or JSON! |
-| [awesome-jev](https://github.com/THEROCKSSS/awesome-jev) | Original | Merged, deduplicated, daily-updated catalog of Jev / TypeSafe System One projects with a filterable GitHub Pages site |
-| [llm-router](https://github.com/THEROCKSSS/llm-router) | Original | One OpenAI-compatible endpoint for every model you use — cloud APIs, free tiers, wildcard catalogs, and local models. Multi-lane LiteLLM gateway with per-agent keys, spend tracking, restart survival, dashboard, and agent skills. |
-| [Helm](https://github.com/THEROCKSSS/Helm) | Fork | Route every coding task to the best AI agent on your machine — Claude Code, Codex, Cursor, Gemini CLI, Aider, OpenCode. Installs as a Claude Code plugin, Gemini extension, or Agent Skill. |
-| [JEV-Paper-Radar](https://github.com/THEROCKSSS/JEV-Paper-Radar) | Fork | Let Jev read every new arXiv paper each morning and surface the few you should read. Plain-English interests, calibrated probabilities, ~$0.06/day, fork and go. |
-| [typesafe-ai-bot](https://github.com/THEROCKSSS/typesafe-ai-bot) | Original | Self-hosted Discord moderation bot: reads your written rules, AI suggests, plain code decides. Community votes, case log, dashboard. MIT. |
-| [jev-codex-router](https://github.com/THEROCKSSS/jev-codex-router) | Fork | Per-turn model &amp; reasoning routing for Codex, driven by Jev (TypeSafe System One): picks the model, thinking depth and speed mode for every turn. |
-| [heist-one](https://github.com/THEROCKSSS/heist-one) | Fork | Observable browser stealth game: Jev makes typed guard judgments while deterministic code owns the world. |
-| [debrify-addon-nowplaying](https://github.com/THEROCKSSS/debrify-addon-nowplaying) | Original | Debrify addon: what you're watching right now (show, episode, progress, time left) — Stremio-protocol manifest, no dependencies. Read-only. |
-| [drawio-skill](https://github.com/THEROCKSSS/drawio-skill) | Fork | Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports. |
-| [framecoded](https://github.com/THEROCKSSS/framecoded) | Fork | No description provided |
+| Repository | What it is |
+|---|---|
+| [awesome-jev](https://github.com/THEROCKSSS/awesome-jev) | Merged, deduplicated, daily-updated catalog of Jev / TypeSafe System One projects with a filterable GitHub Pages site |
+| [llm-router](https://github.com/THEROCKSSS/llm-router) | One OpenAI-compatible endpoint for every model you use — cloud APIs, free tiers, wildcard catalogs, and local models. Multi-lane LiteLLM gateway with per-agent keys, spend tracking, restart survival, dashboard, and agent skills. |
+| [typesafe-ai-bot](https://github.com/THEROCKSSS/typesafe-ai-bot) | Self-hosted Discord moderation bot: reads your written rules, AI suggests, plain code decides. Community votes, case log, dashboard. MIT. |
+| [debrify-addon-nowplaying](https://github.com/THEROCKSSS/debrify-addon-nowplaying) | Debrify addon: what you're watching right now (show, episode, progress, time left) — Stremio-protocol manifest, no dependencies. Read-only. |
 
-*11 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
+*4 original public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily.*
 
 <!-- RECENT-REPOS:END -->
+
+### Contributions elsewhere
+
+- [OpenCoven/coven-landing](https://github.com/OpenCoven/coven-landing/pull/55) — merged privacy page redesign and tests.
 
 ## How the work gets made
 

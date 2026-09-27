@@ -1,100 +1,48 @@
-# HANDOFF — GitHub Profile (THEROCKSSS/THEROCKSSS)
+# GitHub Profile — Handoff
 
-## Current Codex work (2026-09-26)
+## Session
+- Date: 2026-09-27
+- Agent: Codex
+- Repo: https://github.com/THEROCKSSS/THEROCKSSS
+- Live profile: https://github.com/THEROCKSSS
+- Branch: `feat/original-repos-profile`, based on `origin/main` at `393bba8`
+- Prior work: PR #1 merged on 2026-09-26; daily stats and repository refresh are live.
 
-- Branch `feat/new-repos-visual-refresh` started from `main` at `8087d41c6f3eff6c23da38bdac6545252d5b4711`; implementation commit `1d88ac2` is in [PR #1](https://github.com/THEROCKSSS/THEROCKSSS/pull/1). Its `verify / selftest` check passed.
-- Owen asked for all 11 public repositories created since the profile's 2026-09-20 update to appear, including seven clearly labeled forks, and for the section to refresh automatically.
-- [x] Generate and verify the new repository section (11 entries: four originals, seven forks).
-- [x] Redesign the handmade banner/footer and generated stats card; add Jev feature art.
-- [x] Run generator, strict selftest, embed checks, visual verification, and review.
-- [x] Finish pre-commit security checks and record evidence in the Codex workspace `outputs/verification.md`.
-- [x] Commit, push a branch, open a PR, and record CI outcome. PR #1 is open; CI passed. Do not self-merge.
+## Current state
+The profile README and generator now list recent original repositories only. A verified merged contribution outside Owen's repos is linked separately. The Awesome Jev feature art has been redrawn as a source-linked ecosystem map. This branch has not been merged or published. Run `git status --short --branch` for the current tip and pending files.
 
-The daily stats Action now also refreshes the marker-delimited repository section and runs strict selftest plus renderer tests before its bot commit. `python scripts/selftest.py --embeds --strict` passed with 0 failures / 0 warnings; every existing remote image responded successfully. `python -m unittest discover -s tests -v` passed (1 test). All four local SVGs were parsed and rendered in Chromium for visual inspection. The source-generated stats on 2026-09-26 reported 362 contributions in the last 365 days, 42 active days, 16 original public repos, 3 stars received, 57 published skills, and 3 followers; these are generated data, not hand-entered design copy. Standards review flagged missing verification before the bot commit; it was added.
+## Tasks
+- [x] Filter forked repos in the generator so the daily Action cannot re-add them.
+- [x] Verify existing featured and recent repo links contain no forks.
+- [x] Add one verified outside contribution: OpenCoven/coven-landing PR #55.
+- [x] Inspect lowlighter/metrics and its profile Action setup.
+- [x] Redraw Awesome Jev SVG feature image and inspect its Chromium render.
+- [x] Run generator, unit test, and strict profile selftest.
+- [x] Finish independent Standards and Spec review; the PR #55 wording was corrected.
+- [ ] Commit, push, open a reviewable PR, and record CI status.
+- [ ] Owen reviews and merges before public profile changes.
 
+## What was done this session
+- `scripts/generate_repos.py` filters `fork=true`; live GitHub metadata regenerated the README with four recent originals instead of the former 11 including seven forks.
+- A scan of 13 THEROCKSSS repository links in the README against GitHub metadata found zero fork references. GraphQL returned zero pinned repositories.
+- GitHub's search API returned one public merged PR outside THEROCKSSS, OpenCoven/coven-landing #55, linked as a contribution.
+- `assets/awesome-jev.svg` was redrawn and visually inspected at 1200×360 in Chromium. `python -m unittest discover -s tests -v`: 1 passed. `python scripts/selftest.py --strict`: 0 failures / 0 warnings.
+- The linked `lowlighter/metrics` project is MIT licensed and offers SVG metrics with many plugins. Its documented profile Action setup calls for a personal token; `gh secret list` showed no configured `METRICS_TOKEN`. The existing local stats generator continues using GitHub's built-in Action token, so no new credential is needed.
 
-**Status:** ✅ DEPLOYED 2026-09-20 · live at https://github.com/THEROCKSSS
-**Owner:** Owen (public attribution: "by Owen"). Built by Familiar (Hermes Agent).
+## What's not done
+The new README and SVG are not public until the PR is merged. The contribution section is a verified public example rather than an exhaustive historical inventory.
 
-## What this is
+## How to resume
+1. `cd work/profile` from this Codex workspace.
+2. `git status --short --branch`; inspect the diff against `origin/main`.
+3. `python scripts/generate_repos.py`; `python -m unittest discover -s tests -v`; `python scripts/selftest.py --strict`.
+4. Check GitHub Actions `verify.yml` after pushing the PR and `stats.yml` after merge.
 
-The special `THEROCKSSS/THEROCKSSS` repo whose README renders on
-https://github.com/THEROCKSSS. It presents: five featured builds, the
-harness/agent workflow, self-hosted + third-party stats, and collaboration info.
+## Credentials / config
+- `gh` is authenticated as THEROCKSSS. Do not store the token.
+- `.github/workflows/stats.yml` runs daily at 05:23 UTC with built-in `GITHUB_TOKEN`. It regenerates stats and recent originals, verifies them, and auto-commits to `main`.
+- `assets/stats.svg` and `assets/stats.json` are generated. Edit `scripts/generate_stats.py` if those visuals change.
 
-## Layout
-
-- `README.md` — the profile (production; renders publicly)
-- `assets/banner.svg` — hand-built header (palette: bg `#0d1117`, accent `#1f6feb`, ink `#e6edf3`)
-- `assets/footer.svg` — hand-built signature strip
-- `assets/stats.svg` + `assets/stats.json` — **generated** daily by
-  `scripts/generate_stats.py` via `.github/workflows/stats.yml` (never hand-edit)
-- `scripts/generate_stats.py` — regenerates stats from public GitHub data (stdlib only)
-- `scripts/generate_repos.py` — refreshes all public repos created since 2026-09-20 and labels forks
-- `scripts/selftest.py` — asset/README checks; `--embeds` checks third-party URLs
-- `.github/workflows/` — `verify.yml` (CI on push) · `stats.yml` (daily 05:23 UTC) · `embed-check.yml` (weekly Mon 06:41 UTC)
-
-## How to update
-
-1. Edit `README.md` / hand-made assets as needed.
-2. `python3 scripts/selftest.py` (add `--embeds` when touching embed URLs).
-3. Commit on a feature branch and open a reviewable PR; Owen merges to `main` to publish the profile.
-
-Stats self-refresh daily. Manual refresh:
-`gh workflow run stats.yml -R THEROCKSSS/THEROCKSSS`
-
-## Stats card design notes
-
-- Contributions grid cell ids are `contribution-day-component-{WEEKDAY}-{WEEK}` —
-  weekday first. Inverting this renders a 7-column strip instead of a 52-week
-  heatmap. `generate_stats.py` now guards the index order and refuses to write
-  assets when it doesn't match (Sunday at (0,0), 50–54 week columns, 365 cells).
-- Cell tooltips carry the counts (`N contributions on <date>`); the `data-count`
-  attribute is NOT present in the HTML.
-- Current streak is computed from day cells (today excluded when it's a zero
-  partial day); GitHub's streak page semantics differ slightly.
-
-## Embed policy / known constraints
-
-- GitHub camo caches README images — stats card may lag up to a few hours.
-- Broken-for-everyone services (re-checked 2026-09-20): github-readme-stats
-  (503 DEPLOYMENT_PAUSED), profile-trophy (402), readme-activity-graph (402).
-  All three verified still broken — not embedded.
-- Working embeds in use (all verified 200): ghstats.dev, streak-stats.demolab.com,
-  github-profile-summary-cards.vercel.app, shields.io, komarev.com.
-
-## Verification evidence (all real tool output, 2026-09-20)
-
-- Repo created + pushed: `gh repo create THEROCKSSS/THEROCKSSS --public --source=. --push`
-  → commit `c43fe31`, then bot commit `8f4cecf` (stats refresh).
-- CI: `verify` run `35546163482` → **success** (9s). `stats` run `35546190566` → **success** (10s).
-- Stats bot committed its own refresh to `main` — automation proven end-to-end.
-- Live profile page fetched: README block present, all sections found
-  ("Hey, I'm Owen", banner.svg, stats.svg, footer, 25 README images resolve).
-- Live render inspected in browser — banner, badges, cards, pins, activity graph all render.
-- Repo topics applied: `agent-ready, ai-agents, github-profile, hermes-agent, profile, profile-readme`.
-- Repo metadata: smart-bulb-dashboard About corrected 97 → **186 features**;
-  homepages set on hermes-skills-portfolio + smart-bulb-dashboard;
-  topics added to 8 repos that had none.
-- Canonical memory: `user.identity.public_and_local_names` corrected to "Owen"
-  (revision 2, supersedes "Monica Amano"; user chose "by Owen" this session).
-- **Profile fields applied** (2026-09-21): name "Owen", bio (see below), blog =
-  portfolio site — verified via `gh api /user`. NOTE: an env `GITHUB_TOKEN`
-  without `user` scope shadows the keyring token in gh; profile PATCH must run
-  with `env -u GITHUB_TOKEN` so gh uses the refreshed keyring token.
-- **v2 sections added + live** (commit `1992f63`, verify run `35548147599` → success):
-  crew table (Hermes Agent / Claude Code / Codex / Owen), six-step workflow loop,
-  contribution-incentive table (skill requests → auto-scaffolded PRs, own skills,
-  usage, bugs, PRs, ideas), any-harness invitation. Verified live on the profile page.
-
-Bio string (current): `Agent-ready tools, built in human–agent pairs. Hermes Agent × Claude Code × Codex — local-first, self-hosted, documented for agents. Open to collaborate.`
-
-## Open items
-
-- Profile "location" / social fields left unset (no confirmed values).
-- Achievements roadmap: Pull Shark base (2 merged PRs) etc. — earn legitimately via normal PR flow.
-- Consider pruning the 34 stale forks (2020–2023 era) from the profile.
-- Portfolio README skills table still shows the Phase-1 placeholder — verify whether
-  the refresh is intentionally pending before running it.
-- Portfolio has 20 open issues (skill requests) — the submission workflow exists
-  (`skill-submission.yml` scaffolds approved requests into PRs); could be worked.
+## Known issues / blockers
+- GitHub image caching may delay how quickly the new artwork appears after merge.
+- No `METRICS_TOKEN` is configured for lowlighter/metrics. The linked project was reviewed but no new third-party Action was installed.

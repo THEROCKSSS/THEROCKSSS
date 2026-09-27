@@ -15,8 +15,8 @@ https://github.com/THEROCKSSS — treat it as production.
   github-readme-stats (deploy paused), profile-trophy (402), readme-activity-graph (402).
 - **GitHub camo caches README images** — the stats card may lag a few hours behind
   the repo. That is normal.
-- **Ship straight to `main`** — the profile README renders only from the default
-  branch. Commit, push, done.
+- **Use a feature branch and PR** — the profile README renders from the default
+  branch after human review and merge.
 - **No credentials, no personal email** anywhere in this repo. Public attribution
   name is **Owen** ("by Owen").
 
