@@ -70,6 +70,14 @@ These are all public repositories created since September 20, 2026. The list bel
 
 | Repository | Type | What it is |
 |---|---|---|
+| [runner-images](https://github.com/THEROCKSSS/runner-images) | Fork | GitHub Actions runner images |
+| [mitmproxy](https://github.com/THEROCKSSS/mitmproxy) | Fork | An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. |
+| [TwitchDropsMiner](https://github.com/THEROCKSSS/TwitchDropsMiner) | Fork | An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching. |
+| [awesome-rl](https://github.com/THEROCKSSS/awesome-rl) | Fork | Reinforcement learning resources curated |
+| [ui](https://github.com/THEROCKSSS/ui) | Fork | Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own. |
+| [ui-ux-pro-max-skill](https://github.com/THEROCKSSS/ui-ux-pro-max-skill) | Fork | An AI skill that provides design intelligence for building professional UI/UX across multiple platforms. |
+| [pokemon-showdown-client](https://github.com/THEROCKSSS/pokemon-showdown-client) | Fork | The client for Pokémon Showdown |
+| [official\_joke\_api](https://github.com/THEROCKSSS/official_joke_api) | Fork | Official Joke API! |
 | [wardogs-presence](https://github.com/THEROCKSSS/wardogs-presence) | Original | Portable War Dogs screen status for Discord webhooks |
 | [metrics](https://github.com/THEROCKSSS/metrics) | Fork | 📊 An infographics generator with 30+ plugins and 300+ options to display stats about your GitHub account and render them as SVG, Markdown, PDF or JSON! |
 | [awesome-jev](https://github.com/THEROCKSSS/awesome-jev) | Original | Merged, deduplicated, daily-updated catalog of Jev / TypeSafe System One projects with a filterable GitHub Pages site |
@@ -83,7 +91,7 @@ These are all public repositories created since September 20, 2026. The list bel
 | [drawio-skill](https://github.com/THEROCKSSS/drawio-skill) | Fork | Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports. |
 | [framecoded](https://github.com/THEROCKSSS/framecoded) | Fork | No description provided |
 
-*12 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
+*20 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
 
 <!-- RECENT-REPOS:END -->
 
