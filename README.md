@@ -70,6 +70,9 @@ These are all public repositories created since September 20, 2026. The list bel
 
 | Repository | Type | What it is |
 |---|---|---|
+| [backbone-game-engine](https://github.com/THEROCKSSS/backbone-game-engine) | Fork | HTML5 Game Engine using Backbone. |
+| [BrowserQuest](https://github.com/THEROCKSSS/BrowserQuest) | Fork | DEPRECATED - A HTML5/JavaScript multiplayer game experiment |
+| [Open-Golf](https://github.com/THEROCKSSS/Open-Golf) | Fork | A cross-platform minigolf game written in C. |
 | [familiar-weather](https://github.com/THEROCKSSS/familiar-weather) | Original | Self-hosted weather site — Weather Extension's free+Pro UX on free keyless APIs (Open-Meteo, RainViewer, OSM). By Owen. |
 | [Petari](https://github.com/THEROCKSSS/Petari) | Fork | Super Mario Galaxy 1 decompilation. |
 | [runner-images](https://github.com/THEROCKSSS/runner-images) | Fork | GitHub Actions runner images |
@@ -93,7 +96,7 @@ These are all public repositories created since September 20, 2026. The list bel
 | [drawio-skill](https://github.com/THEROCKSSS/drawio-skill) | Fork | Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports. |
 | [framecoded](https://github.com/THEROCKSSS/framecoded) | Fork | No description provided |
 
-*22 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
+*25 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
 
 <!-- RECENT-REPOS:END -->
 
