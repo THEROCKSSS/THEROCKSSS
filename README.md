@@ -70,6 +70,9 @@ These are all public repositories created since September 20, 2026. The list bel
 
 | Repository | Type | What it is |
 |---|---|---|
+| [hermes-pokemon](https://github.com/THEROCKSSS/hermes-pokemon) | Fork | A cozy Pokemon companion garden for Hermes Desktop. Three starters, fetch, berries, little habits, and quiet company. |
+| [Gmod-builder](https://github.com/THEROCKSSS/Gmod-builder) | Fork | No description provided |
+| [create-stockmarket](https://github.com/THEROCKSSS/create-stockmarket) | Fork | Turn your server's player economy into a real-time stock exchange. |
 | [backbone-game-engine](https://github.com/THEROCKSSS/backbone-game-engine) | Fork | HTML5 Game Engine using Backbone. |
 | [BrowserQuest](https://github.com/THEROCKSSS/BrowserQuest) | Fork | DEPRECATED - A HTML5/JavaScript multiplayer game experiment |
 | [Open-Golf](https://github.com/THEROCKSSS/Open-Golf) | Fork | A cross-platform minigolf game written in C. |
@@ -96,7 +99,7 @@ These are all public repositories created since September 20, 2026. The list bel
 | [drawio-skill](https://github.com/THEROCKSSS/drawio-skill) | Fork | Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports. |
 | [framecoded](https://github.com/THEROCKSSS/framecoded) | Fork | No description provided |
 
-*25 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
+*28 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
 
 <!-- RECENT-REPOS:END -->
 
