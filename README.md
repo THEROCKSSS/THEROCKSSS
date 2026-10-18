@@ -70,6 +70,7 @@ These are all public repositories created since September 20, 2026. The list bel
 
 | Repository | Type | What it is |
 |---|---|---|
+| [project-apex-docs](https://github.com/THEROCKSSS/project-apex-docs) | Original | Project Apex public hosting guide and measured binary reconstruction research |
 | [React-Discord-Clone](https://github.com/THEROCKSSS/React-Discord-Clone) | Fork | Discord Clone using React, Node, Express, Socket-IO and Mysql |
 | [spotify-tui](https://github.com/THEROCKSSS/spotify-tui) | Fork | Spotify for the terminal written in Rust 🚀 |
 | [decomp-atlas](https://github.com/THEROCKSSS/decomp-atlas) | Original | A community catalogue of decompilation projects, with maintainer credits, submission tickets, and a contribution wiki. |
@@ -103,7 +104,7 @@ These are all public repositories created since September 20, 2026. The list bel
 | [drawio-skill](https://github.com/THEROCKSSS/drawio-skill) | Fork | Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports. |
 | [framecoded](https://github.com/THEROCKSSS/framecoded) | Fork | No description provided |
 
-*32 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
+*33 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
 
 <!-- RECENT-REPOS:END -->
 
