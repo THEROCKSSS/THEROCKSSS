@@ -70,6 +70,9 @@ These are all public repositories created since September 20, 2026. The list bel
 
 | Repository | Type | What it is |
 |---|---|---|
+| [spotifast](https://github.com/THEROCKSSS/spotifast) | Fork | Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows. |
+| [Madeira](https://github.com/THEROCKSSS/Madeira) | Fork | Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT |
+| [fireshare](https://github.com/THEROCKSSS/fireshare) | Fork | Self host your media and share with unique links |
 | [claude-mods](https://github.com/THEROCKSSS/claude-mods) | Original | Claude Code mods: a mod manager with a live web hub, a live 2D/3D logic graph of every mod, ports with phone QR codes, memory and update watchers, and Windows forks of blast-radius and mission-control |
 | [project-apex-docs](https://github.com/THEROCKSSS/project-apex-docs) | Original | Project Apex public hosting guide and measured binary reconstruction research |
 | [React-Discord-Clone](https://github.com/THEROCKSSS/React-Discord-Clone) | Fork | Discord Clone using React, Node, Express, Socket-IO and Mysql |
@@ -105,7 +108,7 @@ These are all public repositories created since September 20, 2026. The list bel
 | [drawio-skill](https://github.com/THEROCKSSS/drawio-skill) | Fork | Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports. |
 | [framecoded](https://github.com/THEROCKSSS/framecoded) | Fork | No description provided |
 
-*34 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
+*37 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
 
 <!-- RECENT-REPOS:END -->
 
