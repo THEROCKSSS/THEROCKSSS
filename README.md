@@ -70,6 +70,8 @@ These are all public repositories created since September 20, 2026. The list bel
 
 | Repository | Type | What it is |
 |---|---|---|
+| [Slimmmo.github.io](https://github.com/THEROCKSSS/Slimmmo.github.io) | Fork | AdVenture Capitalist calculator |
+| [adventure-capitalist](https://github.com/THEROCKSSS/adventure-capitalist) | Fork | This game was built on React + Redux. It was inspired from http://en.gameslol.net/adventure-capitalist-1086.html  This game is responsive, so it works on Desktop, Tablet and Mobile. |
 | [spotifast](https://github.com/THEROCKSSS/spotifast) | Fork | Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows. |
 | [Madeira](https://github.com/THEROCKSSS/Madeira) | Fork | Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT |
 | [fireshare](https://github.com/THEROCKSSS/fireshare) | Fork | Self host your media and share with unique links |
@@ -108,7 +110,7 @@ These are all public repositories created since September 20, 2026. The list bel
 | [drawio-skill](https://github.com/THEROCKSSS/drawio-skill) | Fork | Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports. |
 | [framecoded](https://github.com/THEROCKSSS/framecoded) | Fork | No description provided |
 
-*37 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
+*39 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
 
 <!-- RECENT-REPOS:END -->
 
