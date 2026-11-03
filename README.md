@@ -70,6 +70,9 @@ These are all public repositories created since September 20, 2026. The list bel
 
 | Repository | Type | What it is |
 |---|---|---|
+| [claude-blender-skills](https://github.com/THEROCKSSS/claude-blender-skills) | Fork | Free Claude skills for realistic Blender animations: full workflows + the real scripts behind my YouTube videos |
+| [claude-animated-shorts](https://github.com/THEROCKSSS/claude-animated-shorts) | Fork | Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion |
+| [LEANN](https://github.com/THEROCKSSS/LEANN) | Fork | \[MLsys2026 Best Paper\]: https://arxiv.org/abs/2506.08276. RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device. |
 | [Slimmmo.github.io](https://github.com/THEROCKSSS/Slimmmo.github.io) | Fork | AdVenture Capitalist calculator |
 | [adventure-capitalist](https://github.com/THEROCKSSS/adventure-capitalist) | Fork | This game was built on React + Redux. It was inspired from http://en.gameslol.net/adventure-capitalist-1086.html  This game is responsive, so it works on Desktop, Tablet and Mobile. |
 | [spotifast](https://github.com/THEROCKSSS/spotifast) | Fork | Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows. |
@@ -110,7 +113,7 @@ These are all public repositories created since September 20, 2026. The list bel
 | [drawio-skill](https://github.com/THEROCKSSS/drawio-skill) | Fork | Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports. |
 | [framecoded](https://github.com/THEROCKSSS/framecoded) | Fork | No description provided |
 
-*39 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
+*42 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
 
 <!-- RECENT-REPOS:END -->
 
