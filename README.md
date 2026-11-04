@@ -70,6 +70,7 @@ These are all public repositories created since September 20, 2026. The list bel
 
 | Repository | Type | What it is |
 |---|---|---|
+| [fnv\_decomp](https://github.com/THEROCKSSS/fnv_decomp) | Fork | No description provided |
 | [claude-blender-skills](https://github.com/THEROCKSSS/claude-blender-skills) | Fork | Free Claude skills for realistic Blender animations: full workflows + the real scripts behind my YouTube videos |
 | [claude-animated-shorts](https://github.com/THEROCKSSS/claude-animated-shorts) | Fork | Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion |
 | [LEANN](https://github.com/THEROCKSSS/LEANN) | Fork | \[MLsys2026 Best Paper\]: https://arxiv.org/abs/2506.08276. RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device. |
@@ -113,7 +114,7 @@ These are all public repositories created since September 20, 2026. The list bel
 | [drawio-skill](https://github.com/THEROCKSSS/drawio-skill) | Fork | Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports. |
 | [framecoded](https://github.com/THEROCKSSS/framecoded) | Fork | No description provided |
 
-*42 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
+*43 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
 
 <!-- RECENT-REPOS:END -->
 
