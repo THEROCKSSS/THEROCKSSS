@@ -70,6 +70,8 @@ These are all public repositories created since September 20, 2026. The list bel
 
 | Repository | Type | What it is |
 |---|---|---|
+| [augur](https://github.com/THEROCKSSS/augur) | Fork | Hermes Agent plugin: your agent knows your 3 priorities, notices drift, parks detours and clears them on Friday. |
+| [hermes-lyrics](https://github.com/THEROCKSSS/hermes-lyrics) | Fork | Time-synced lyrics for what you're playing on Spotify, inside Hermes Desktop |
 | [RecompLauncher](https://github.com/THEROCKSSS/RecompLauncher) | Fork | PC recomps, all in one place. Find, install, update and play PC recomps from one launcher. |
 | [first-man-handyman-site](https://github.com/THEROCKSSS/first-man-handyman-site) | Original | Four redesigned looks for First Man Handyman (Sheridan, CA), with printable QR cards and AI maintenance skills |
 | [fnv\_decomp](https://github.com/THEROCKSSS/fnv_decomp) | Fork | No description provided |
@@ -116,7 +118,7 @@ These are all public repositories created since September 20, 2026. The list bel
 | [drawio-skill](https://github.com/THEROCKSSS/drawio-skill) | Fork | Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports. |
 | [framecoded](https://github.com/THEROCKSSS/framecoded) | Fork | No description provided |
 
-*45 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
+*47 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
 
 <!-- RECENT-REPOS:END -->
 
