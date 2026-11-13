@@ -70,6 +70,7 @@ These are all public repositories created since September 20, 2026. The list bel
 
 | Repository | Type | What it is |
 |---|---|---|
+| [creator-studio](https://github.com/THEROCKSSS/creator-studio) | Fork | Hermes plugin suite: Make media with Hermes from one request: researched lesson videos, two-host podcast episodes, captions for any recording, and narrated step-by-step tutorials. |
 | [augur](https://github.com/THEROCKSSS/augur) | Fork | Hermes Agent plugin: your agent knows your 3 priorities, notices drift, parks detours and clears them on Friday. |
 | [hermes-lyrics](https://github.com/THEROCKSSS/hermes-lyrics) | Fork | Time-synced lyrics for what you're playing on Spotify, inside Hermes Desktop |
 | [RecompLauncher](https://github.com/THEROCKSSS/RecompLauncher) | Fork | PC recomps, all in one place. Find, install, update and play PC recomps from one launcher. |
@@ -118,7 +119,7 @@ These are all public repositories created since September 20, 2026. The list bel
 | [drawio-skill](https://github.com/THEROCKSSS/drawio-skill) | Fork | Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports. |
 | [framecoded](https://github.com/THEROCKSSS/framecoded) | Fork | No description provided |
 
-*47 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
+*48 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
 
 <!-- RECENT-REPOS:END -->
 
