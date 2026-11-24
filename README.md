@@ -70,6 +70,9 @@ These are all public repositories created since September 20, 2026. The list bel
 
 | Repository | Type | What it is |
 |---|---|---|
+| [agentic-contract-skill](https://github.com/THEROCKSSS/agentic-contract-skill) | Fork | Generate branded CompleteTech LLC services agreement PDFs with cover, letterhead, watermark and addressed envelope from approved terms. |
+| [gas-price-drop-2026](https://github.com/THEROCKSSS/gas-price-drop-2026) | Original | Why U.S. gas prices fell 66 cents in November 2026 — a sourced report with interactive HTML, PDF, and narrated video |
+| [battlebit-stat-ripper](https://github.com/THEROCKSSS/battlebit-stat-ripper) | Original | Capture your own BattleBit Remastered stats into a portable file, and publish them on a stats site: Windows ripper CLI/GUI plus the Flask site. |
 | [Decepticon](https://github.com/THEROCKSSS/Decepticon) | Fork | Autonomous Hacking Agent for Red Team |
 | [Leonida](https://github.com/THEROCKSSS/Leonida) | Fork | Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6 |
 | [creator-studio](https://github.com/THEROCKSSS/creator-studio) | Fork | Hermes plugin suite: Make media with Hermes from one request: researched lesson videos, two-host podcast episodes, captions for any recording, and narrated step-by-step tutorials. |
@@ -121,7 +124,7 @@ These are all public repositories created since September 20, 2026. The list bel
 | [drawio-skill](https://github.com/THEROCKSSS/drawio-skill) | Fork | Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports. |
 | [framecoded](https://github.com/THEROCKSSS/framecoded) | Fork | No description provided |
 
-*50 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
+*53 public repositories created since 2026-09-20. Metadata from GitHub; refreshed daily. Forks are labeled above.*
 
 <!-- RECENT-REPOS:END -->
 
